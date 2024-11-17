@@ -133,16 +133,19 @@ width:600px;
 	margin-bottom:10px ;
 	}
 	
+	
 	#skills{
-		background-color: rgb(128, 66, 116);
+		 background-color: rgb(210, 101, 12); 
 	height: 700px;
 	width:100% ;
-	}
-	#skills{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		height: 900px;
 		width: 100%;
+		
 	}
-.container{
+	.container{
 		justify-content: center;
 		
 	}
@@ -164,7 +167,7 @@ width:600px;
 		  display:flex;
 		  justify-content: center;
 		  align-items: center;
-		  position: relative;
+		  position: absolute;
 			top: 0;
 			left:0;
 
@@ -177,7 +180,7 @@ width:600px;
 			background-color: orange;
 			display:flex;
 		  justify-content: center;
-			position: relative;
+			position: absolute;
 			top: 0;
 			left:0;
 			animation-name: html;
@@ -388,11 +391,3 @@ color: crimson;
 .box2{
 font-weight: bolder;
 }
-
-
-
-
-
-
-
-
