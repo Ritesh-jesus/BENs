@@ -1,0 +1,144 @@
+/* Basic Reset */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* fixed header  */
+.header{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color:darkblue;
+	/* text-align: center; */
+	padding:10px 0
+}
+.header a{
+	color: rgb(229, 15, 15);
+}
+.header a:hover{
+	background-color:blue;
+	border-radius: 4px;
+	padding: 5px 10px;
+}
+.img1{
+float:right;
+height:300px;
+width: 600px;
+margin-left:10px; 
+margin-bottom:10px ;
+}
+.img2{
+	float:right;
+	clear:right;
+height:300px;
+width:600px;
+ margin-left:10px; 
+ margin-bottom: 20px;
+}
+#home{
+	height: 700px;
+	width:100% ;
+	margin-top:30px ;
+	
+	background-color: aqua;
+} 
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+	from {
+	  opacity: 0; /* Start invisible */
+	  transform: translateY(20px); /* Start slightly lower */
+	}
+	to {
+	  opacity: 1; /* Fully visible */
+	  transform: translateY(0); /* Final position */
+	}
+  }
+  
+  /* Applying the Animation */
+  .fade-slide{
+	opacity: 0; /* Start hidden */
+	animation: fadeInUp 1s ease-in-out forwards; /* Smooth animation */
+  }
+  
+  .p1{
+	margin-left: 20px;
+	color: red;
+	font-size: 30px;
+	font-weight:50px ;
+	opacity: 0; /* Start hidden */
+	animation: fadeInUp 2s ease-in-out forwards; /* Smooth animation */
+  }
+  
+  .p2{
+	margin-left: 20px;
+	color: blue;
+	font-size: 30px;
+	font-weight:50px;
+	opacity: 0; /* Start hidden */
+	animation: fadeInUp 3s ease-in-out forwards; /* Smooth animation */
+  }
+  h1{
+	margin-left: 110px;
+	font-size: 60px;
+	font-weight:80px;
+	color: crimson;
+  }
+  
+  /* about section */
+  #about{
+	
+	background-color: rgb(157, 167, 23);
+	height: 700px;
+	width:100% ;
+  }
+.p3{
+	
+	color: red;
+	font-size: 40px;
+	font-weight:50px ;
+	opacity: 0; /* Start hidden */
+	animation: fadeInUp 2s ease-in-out forwards; /* Smooth animation */
+}
+
+.p4{
+	color: red;
+	font-size: 40px;
+	font-weight:50px ;
+	opacity: 0; /* Start hidden */
+	animation: fadeInUp 2s ease-in-out forwards; /* Smooth animation */
+
+}
+
+
+
+
+  .img3{
+	float:left;
+	
+height:300px;
+width:600px;
+ margin-right:100px; 
+ margin-bottom: 10px;
+  }
+  .img4{
+	float:left;
+	clear: left;
+	height:300px;
+	width: 600px;
+	margin-right:100px; 
+	margin-bottom:10px ;
+	}
+	
+	#skills{
+		background-color: rgb(128, 66, 116);
+	height: 700px;
+	width:100% ;
+	}
+	#skills{
+		height: 900px;
+		width: 100%;
+	}
