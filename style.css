@@ -11,13 +11,12 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color:darkblue;
+	background-color:rgba(254, 31, 31,0);
+	
 	/* text-align: center; */
 	padding:10px 0
 }
-.header a{
-	color: rgb(229, 15, 15);
-}
+
 .header a:hover{
 	background-color:blue;
 	border-radius: 4px;
@@ -43,7 +42,10 @@ width:600px;
 	width:100% ;
 	margin-top:30px ;
 	
-	background-color: aqua;
+	background-color: white;
+	color: black;
+	font-display: overline;
+	overflow:scroll;
 } 
 
 /* Animation Keyframes */
@@ -66,15 +68,18 @@ width:600px;
   
   .p1{
 	margin-left: 20px;
-	color: red;
-	font-size: 30px;
+	color:black;
+	font-size: 3rem;
 	font-weight:50px ;
 	opacity: 0; /* Start hidden */
 	animation: fadeInUp 2s ease-in-out forwards; /* Smooth animation */
   }
   
+#about{
+	overflow:scroll;
+}
   .p2{
-	margin-left: 20px;
+	line-height:100px;
 	color: blue;
 	font-size: 30px;
 	font-weight:50px;
