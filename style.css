@@ -142,3 +142,257 @@ width:600px;
 		height: 900px;
 		width: 100%;
 	}
+.container{
+		justify-content: center;
+		
+	}
+	.orbit{
+		
+		justify-content: center;
+		height:100px;
+		width:100px;
+		
+		position: relative;
+		
+		
+	}
+		.ritesh{
+			height:100px;
+          width:100px;
+		  border-radius:50%;
+		  background-color: yellow;
+		  display:flex;
+		  justify-content: center;
+		  align-items: center;
+		  position: absolute;
+			top: 0;
+			left:0;
+
+		}
+		.html{
+			align-items: center;
+			height: 50px;
+			width:50px;
+			border-radius:50%;
+			background-color: orange;
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name: html;
+			animation-duration: 10s;
+			animation-timing-function: linear;
+				animation-iteration-count: infinite;}
+  @keyframes html{
+from{
+	transform:rotate(0deg) translate(150px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(150px) rotate(-360deg);
+}
+
+
+  }
+		
+   .css{
+	align-items: center;
+	height: 50px;
+			width:50px;
+			border-radius:50%;
+			background-color: blue;
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:css;
+			animation-duration: 8s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes css{
+from{
+	transform:rotate(0deg) translate(250px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(250px) rotate(-360deg);
+}}
+
+.javascript{
+	align-items: center;
+	
+	height: 100px;
+			width:100px;
+			border-radius:50%;
+			background-color:red;
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 8s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(350px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(350px) rotate(-360deg);
+}}
+.imgrit{
+	height: 150px;
+	width:150px;
+	object-fit:cover;
+}
+.type{
+	align-items: center;
+	
+	height: 100px;
+			width:100px;
+			border-radius:50%;
+			background-color:red;
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 8s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(350px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(350px) rotate(-360deg);
+}}
+
+.DSA{
+	align-items: center;
+	
+	height: 150px;
+			width:150px;
+			border-radius:50%;
+			background-color:rgb(23, 234, 19);
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 20s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(500px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(500px) rotate(-360deg);
+}}
+
+.react{
+	align-items: center;
+	
+	height: 100px;
+			width:100px;
+			border-radius:50%;
+			background-color:rgba(232, 8, 221, 0.642);
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 10s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(300px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(300px) rotate(-360deg);
+}}
+
+.next{
+	align-items: center;
+	
+	height: 100px;
+			width:100px;
+			border-radius:50%;
+			background-color:rgba(222, 241, 9, 0.849);
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 12s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(200px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(200px) rotate(-360deg);
+}}
+
+.blockchain{
+	align-items: center;
+	
+	height: 100px;
+			width:100px;
+			border-radius:50%;
+			background-color:rgba(12, 231, 209, 0.84);
+			display:flex;
+		  justify-content: center;
+			position: absolute;
+			top: 0;
+			left:0;
+			animation-name:java;
+			animation-duration: 15s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;}
+  @keyframes java{
+from{
+	transform:rotate(0deg) translate(350px) rotate(0deg);
+}
+to{
+	transform:rotate(360deg) translate(350px) rotate(-360deg);
+}}
+#contacts{
+	background-color: rgb(62, 211, 16); 
+	height: 200px;
+	width:100% ;
+		}
+.contain{
+display: flex;
+flex-wrap: wrap;
+
+}
+.box{
+	padding:10px;
+	background-color: lightblue;
+	margin:5px
+}
+
+.box1{
+font-weight: bolder;
+color: crimson;
+}
+.box2{
+font-weight: bolder;
+}
+
+
+
+
+
+
+
+
